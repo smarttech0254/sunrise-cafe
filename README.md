@@ -1,2 +1,301 @@
 # sunrise-cafe
-website about sunrise cafe
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffaf0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #f2a154;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Image */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Content section */
+div p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+div button {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  background: #f2a154;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+div button:hover {
+  background: #d4842b;
+}
+
+/* Table */
+table {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #f2a154;
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+}
+
+footer a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  background: #f2a154;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer a:hover {
+  background: #d4842b;
+}
+body {
+  background-color: lightblue;
+}
+/* Common button styles */
+footer a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Email button */
+.email-button a {
+  background-color: #0073e6; /* Blue */
+}
+.email-button a:hover {
+  background-color: #005bb5;
+}
+
+/* Twitter button */
+.twitter-button a {
+  background-color: #1DA1F2; /* Twitter blue */
+}
+.twitter-button a:hover {
+  background-color: #0d8ddb;
+}
+
+/* Instagram button */
+.instagram-button a {
+  background-color: #E1306C; /* Pink */
+}
+.instagram-button a:hover {
+  background-color: #c2185b;
+}
+
+/* Facebook button */
+.facebook-button a {
+  background-color: #1877F2; /* Facebook blue */
+}
+.facebook-button a:hover {
+  background-color: #1259b2;
+}
+
+/* WhatsApp button */
+.whatsapp-button a {
+  background-color: #25D366; /* Green */
+}
+.whatsapp-button a:hover {
+  background-color: #1da851;
+}
+table {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #ed1056;   /* Orange header */
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #fdf5e6;   /* Light cream rows */
+}
+
+tr:hover {
+  background-color: #ffe5b4;   /* Highlight on hover */
+  cursor: pointer;
+}
+.menu-section {
+  text-align: center;   /* centers content inside */
+  margin: 30px 0;       /* spacing above and below */
+}
+
+.menu-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #f2a154;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.menu-btn:hover {
+  background-color: #d4842b;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Reset some defaults */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the form */
+form {
+  width: 400px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset and legend styling */
+fieldset {
+  border: 2px solid #ff9800;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+/* Labels and inputs */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Radio & checkbox spacing */
+input[type="radio"], input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff9800;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #e68900;
+}
