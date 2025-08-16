@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form method="post" action="#">
+    <fieldset>
+      <legend>Reservation Details</legend>
+
+      <!-- Name -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <br><br>
+
+      <!-- Phone -->
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <br><br>
+
+      <!-- Date -->
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      <br><br>
+
+      <!-- Time -->
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" min="08:00" max="18:00" required>
+      <br><br>
+
+      <!-- Guests -->
+      <label for="guests">Guests:</label>
+      <select id="guests" name="guests" required>
+        <option value="" disabled selected>Select…</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5+</option>
+      </select>
+      <br><br>
+
+      <!-- Seating -->
+      <p>Seating preference:</p>
+      <input type="radio" id="indoor" name="seating" value="indoor" required>
+      <label for="indoor">Indoor</label><br>
+      <input type="radio" id="outdoor" name="seating" value="outdoor">
+      <label for="outdoor">Outdoor</label>
+      <br><br>
+
+      <!-- Special requests -->
+      <label for="notes">Special Requests:</label><br>
+      <textarea name="special_requests" id="notes" rows="4" cols="40"></textarea>
+      <br><br>
+
+      <!-- Terms -->
+      <input type="checkbox" id="terms" name="terms" required>
+      <label for="terms">I accept the terms and conditions</label>
+      <br><br>
+
+    </fieldset>
+    <br>
+    <button type="submit">Book Table</button>
+  </form>
+</body>
+</html>
